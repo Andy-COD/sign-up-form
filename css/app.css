@@ -86,16 +86,17 @@ input:focus::placeholder {
     color: transparent;
 }
 .error {
-    position: relative;
+    position: absolute;
+    content: "";
     top: -2.9rem;
-    left: 21rem;
+    left: 22.2rem;
 }
 .fname-indicator,
 .lname-indicator,
 .email-indicator,
 .psword-indicator {
     position: relative;
-    top: -2.8rem;
+    top: -1rem;
     font-size: x-small;
     color: hsl(0, 100%, 74%);
     left: 15rem;
@@ -104,6 +105,7 @@ input:focus::placeholder {
 .lname-warning,
 .email-warning,
 .psword-warning {
+    position: relative;
     height: 0px;
 }
 .email-eg {
