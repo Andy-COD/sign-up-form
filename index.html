@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" role="banner">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -12,43 +12,43 @@
 </head>
 <body>
   <div class="container">
-    <div class="content" role="Presentation">
+    <div class="content" role="description">
       <h3 class="content-title">Learn to code by watching others</h3>
       <p class="content-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
         but understanding how developers think is invaluable. </p>
     </div>
     <div class="form">
-      <div class="notice" role="Presentation">
+      <div class="notice" role="alert">
         <p class="notice-txt">Try it free 7 days <span class="faded">then $20/mo. thereafter</span></p>
       </div>
         <form action="" class="user-details" id="form">
-          <input type="text" name="fname" id="fname" placeholder="First Name" role="Abstract">
+          <input type="text" name="fname" id="fname" placeholder="First Name" role="form">
           <div class="fname-warning none">
             <img src="./images/icon-error.svg" alt="error" class="error">
             <p class="fname-indicator">First name cannot be empty</p>
           </div>
 
-          <input type="text" name="lname" id="lname" placeholder="Last Name" role="Abstract">
+          <input type="text" name="lname" id="lname" placeholder="Last Name" role="form">
           <div class="lname-warning none">
             <img src="./images/icon-error.svg" alt="error" class="error">
             <p class="lname-indicator">Last name cannot be empty</p>
           </div>
 
-          <input type="email" name="email" id="email" placeholder="Email Address" role="Abstract">
+          <input type="email" name="email" id="email" placeholder="Email Address" role="form">
           <div class="email-warning none">
             <img src="./images/icon-error.svg" alt="error" class="error">
             <p class="email-indicator">Looks like this is not an email</p>
             
           </div>
 
-          <input type="password" name="psword" id="psword" placeholder="Password" role="Abstract">
+          <input type="password" name="psword" id="psword" placeholder="Password" role="form">
           <div class="psword-warning none">
             <img src="./images/icon-error.svg" alt="error" class="error">
             <p class="psword-indicator">password cannot be empty</p>
           </div>
 
-          <button type="submit" class="submit" role="Pseudo HTML">Claim your free trial</button>
-          <div class="terms" role="link">By clicking the button, you are agreeing to our <span class="terms-highlight">Terms and Services</span></div>
+          <button type="submit" class="submit" role="button">Claim your free trial</button>
+          <div class="terms">By clicking the button, you are agreeing to our <span class="terms-highlight">Terms and Services</span></div>
         </form>
     </div>
   </div>
